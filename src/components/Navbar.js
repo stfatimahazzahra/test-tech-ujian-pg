@@ -6,7 +6,7 @@ import Countdown from "./Countdown"
 import { usePathname } from "next/navigation"
 
 export default function Navbar() {
-  const [timer, setTimer] = useState(10)
+  const [timer, setTimer] = useState(1200)
   const pathname = usePathname()
 
   return (
