@@ -1,0 +1,39 @@
+.bg-navbar {
+    background-color: #112b3c;
+    color: #fff;
+}
+
+.container-modify {
+    margin: 0 50px;
+}
+
+.countdown {
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    color: #112b3c;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+@media (max-width: 1048px) {
+    .container-modify {
+      margin: 0 20px;
+    }
+
+    .bg-card-col2 {
+        margin-bottom: 20px;
+    }
+
+    .grid-column {
+        display: grid;
+    }
+
+    .grid-column-responsive {
+        width: 100%;
+    }
+  }
+
+  /* 768 - 1048 */
